@@ -1,0 +1,22 @@
+.type-pers-parent {
+  perspective: 150px;
+  -webkit-perspective: 1000px;
+  height: 600px;
+  background-image: url(https://blog-001.west.edge.storage-yahoo.jp/res/blog-f2-50/maeikusc/folder/49543/45/35972845/img_0);
+  background-size: cover;
+  overflow: hidden;
+}
+.type-pers-child {
+  text-align: justify;
+  padding: 2%;
+  -webkit-animation: typetext linear 26s infinite;
+  color: #F1C40F;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 80px;
+}
+
+@-webkit-keyframes typetext {
+   0% {transform: rotateX(45deg) translate(0,0);}
+  100% {transform: rotateX(45deg) translate(0,-4300px);}
+}
